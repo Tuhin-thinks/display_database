@@ -1,0 +1,9 @@
+config.json
+get_data.html
+form_data.json
+
+
+migrations/
+get_data_files/
+.idea/
+__pycache__/
