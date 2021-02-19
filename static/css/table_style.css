@@ -1,0 +1,134 @@
+#data {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data td, #data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: justify;
+  vertical-align: text-bottom;
+}
+
+#data tr:nth-child(even){background-color: #f2f2f2;}
+
+#data tr:hover {background-color: #ddd;}
+
+#data tr{
+  font-family: Monospace;
+}
+
+#data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #33BBFF;
+  color: white;
+}
+#data tr td input::selection{
+  color: white;
+  background: black;
+}
+/* .submit-div{
+  text-align: right;
+} */
+#submit_button{
+  height: 40px;
+  margin-top: 10px;
+  size: 20px;
+  background-color: #33BBFF;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#data tr{
+vertical-align: top;
+}
+.modal-confirm {		
+  color: #636363;
+  width: 325px;
+  margin: 30px auto;
+}
+.modal-confirm .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.modal-confirm .modal-header {
+  border-bottom: none;   
+      position: relative;
+}
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -15px;
+}
+.modal-confirm .form-control, .modal-confirm .btn {
+  min-height: 40px;
+  border-radius: 3px; 
+}
+.modal-confirm .close {
+      position: absolute;
+  top: -5px;
+  right: -5px;
+}	
+.modal-confirm .modal-footer {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+}	
+.modal-confirm .icon-box {
+  color: #fff;		
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -70px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 9;
+  background: #82ce34;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-confirm .icon-box i {
+  font-size: 58px;
+  position: relative;
+  top: 3px;
+}
+.modal-confirm.modal-dialog {
+  margin-top: 80px;
+}
+.modal-confirm .btn {
+  color: #fff;
+  border-radius: 4px;
+  background: #82ce34;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border: none;
+}
+.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+  background: #6fb32b;
+  outline: none;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
+#text_pop {
+  -webkit-box-shadow: -14px 15px 9px -3px rgba(249,255,219,0.73); 
+  box-shadow: -14px 15px 9px -3px rgba(249,255,219,0.73);
+  }
+.form-control{
+  min-width: 100%;
+  max-width: 100%;
+}
+mark{
+  background-color: #c0ffc8;
+}

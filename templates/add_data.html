@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% block title %}{{ super() }}CRUD - CREATE ENTRIES{% endblock %}
+
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+{% block navbar %} {{ super() }} {% endblock %}
+
+{% block body %}
+  {{ super() }}
+
+  <!-- Flash message after sucess operation -->
+    <div class="container" style="position: absolute;top: 50px;left: 40%;z-index: 10;right: auto;max-width: max-content;">
+        {% for message in get_flashed_messages() %}
+        <div class="alert alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{ message }}
+        </div>
+        {% endfor %}
+    </div>
+  <!-- ---------------------------------------------- -->
+
+  <form id="table_data" action="" method="POST">
+      <table class="table-striped" id="data">
+        <thead>
+          <th>Field Name</th>
+          <th>Input Data</th>
+        </thead>
+        <tbody>
+          {% for name in columns[1:] %}
+          <tr>
+              <td><label for="{{ name[0] }}">{{name[0]}}</label></td>
+              <td><input id="{{ name[1] }}" name="{{ name[1] }}" type="text" value="" placeholder="Enter text here" required></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+      <div class="submit-div" type="submit">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary" id="submit_button">Submit</button>
+        </div>
+        <!-- Modal trigger -->
+        <button  id="showArea" onClick="showTextArea()"  type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
+          Enter from Json string
+        </button>
+        <!-- Modal trigger close -->
+      </div>
+  </form>
+    <br>
+    <!-- Modal div -->
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Enter JSON string below</h5>
+              <button  id="hideArea" onClick="hideTextArea()" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="textAreaDiv" spellcheck="false">
+                <textarea class="form-control" id="txtString" required></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p style="text-align: left;"><strong>*Note:</strong> The data entered above will be splitted with <mark>;gt</mark>  as separator into an array.<br>Press submit after you confirm data filled up are correct</p>
+              <button class="btn btn-primary" id="fill_area" type="button" onClick="fillAreas()" class="btn btn-default" data-dismiss="modal">
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Modal div end -->
+  <script>
+    function showTextArea() {
+      document.getElementById('showArea').style.visibility="hidden";
+    }
+    
+    function hideTextArea() {
+      document.querySelector("#textAreaDiv>textarea").value="";
+      document.getElementById('showArea').style.visibility="visible";
+    }
+    function fillAreas(){
+    var text = document.getElementById("txtString").value;
+    console.log(text);
+    if(text == ''){
+      document.getElementById('showArea').style.visibility="visible";  // show JSON input button if user enters empty stirng
+      return;
+    }
+    var inputs = text.split(';gt');
+    var input_fields = document.getElementsByTagName('input');
+    var i = 0;
+    var input = "";
+    var count = 0;
+    while(i < input_fields.length){
+      if(input_fields[i].placeholder == "Enter text here"){
+        input_fields[i].value = inputs[count];
+        count += 1;
+    }
+    i += 1;
+    }
+  }
+  </script>
+{% endblock %}
+</html>

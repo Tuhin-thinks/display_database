@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+  {{ super() }}
+    CRUD -View Database
+  {% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block navbar %}
+{{ super() }}
+{% endblock %}
+<!-- table code starts -->
+{% block body %}
+{{ super() }}
+<h4 style="text-align: center;">Table Name : {{ table_name }}</h4>
+<!-- Dark Theme -->
+<table data-table-theme="dark zebra">
+  <thead>
+    <tr>
+      {% for head in columns %}
+        <th>{{ head }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in table_data %}
+    <tr>
+      <script>item</script>
+        {% for  head in columns %}
+        <td>{{ item[head] }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      {% for head in columns %}
+        <th>{{ head }}</th>
+      {% endfor %}
+    </tr>
+  </tfoot>
+</table>
+{% endblock %}

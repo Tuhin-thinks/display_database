@@ -1,0 +1,235 @@
+China;gt1,439,323,776;gt0.39 %;gt5,540,090;gt153;gt9,388,211;gt-348,399;gt1.7;gt38;gt61 %;gt18.47 %
+India;gt1,380,004,385;gt0.99 %;gt13,586,631;gt464;gt2,973,190;gt-532,687;gt2.2;gt28;gt35 %;gt17.70 %
+United States;gt331,002,651;gt0.59 %;gt1,937,734;gt36;gt9,147,420;gt954,806;gt1.8;gt38;gt83 %;gt4.25 %
+Indonesia;gt273,523,615;gt1.07 %;gt2,898,047;gt151;gt1,811,570;gt-98,955;gt2.3;gt30;gt56 %;gt3.51 %
+Pakistan;gt220,892,340;gt2.00 %;gt4,327,022;gt287;gt770,880;gt-233,379;gt3.6;gt23;gt35 %;gt2.83 %
+Brazil;gt212,559,417;gt0.72 %;gt1,509,890;gt25;gt8,358,140;gt21,200;gt1.7;gt33;gt88 %;gt2.73 %
+Nigeria;gt206,139,589;gt2.58 %;gt5,175,990;gt226;gt910,770;gt-60,000;gt5.4;gt18;gt52 %;gt2.64 %
+Bangladesh;gt164,689,383;gt1.01 %;gt1,643,222;gt1,265;gt130,170;gt-369,501;gt2.1;gt28;gt39 %;gt2.11 %
+Russia;gt145,934,462;gt0.04 %;gt62,206;gt9;gt16,376,870;gt182,456;gt1.8;gt40;gt74 %;gt1.87 %
+Mexico;gt128,932,753;gt1.06 %;gt1,357,224;gt66;gt1,943,950;gt-60,000;gt2.1;gt29;gt84 %;gt1.65 %
+Japan;gt126,476,461;gt-0.30 %;gt-383,840;gt347;gt364,555;gt71,560;gt1.4;gt48;gt92 %;gt1.62 %
+Ethiopia;gt114,963,588;gt2.57 %;gt2,884,858;gt115;gt1,000,000;gt30,000;gt4.3;gt19;gt21 %;gt1.47 %
+Philippines;gt109,581,078;gt1.35 %;gt1,464,463;gt368;gt298,170;gt-67,152;gt2.6;gt26;gt47 %;gt1.41 %
+Egypt;gt102,334,404;gt1.94 %;gt1,946,331;gt103;gt995,450;gt-38,033;gt3.3;gt25;gt43 %;gt1.31 %
+Vietnam;gt97,338,579;gt0.91 %;gt876,473;gt314;gt310,070;gt-80,000;gt2.1;gt32;gt38 %;gt1.25 %
+DR Congo;gt89,561,403;gt3.19 %;gt2,770,836;gt40;gt2,267,050;gt23,861;gt6.0;gt17;gt46 %;gt1.15 %
+Turkey;gt84,339,067;gt1.09 %;gt909,452;gt110;gt769,630;gt283,922;gt2.1;gt32;gt76 %;gt1.08 %
+Iran;gt83,992,949;gt1.30 %;gt1,079,043;gt52;gt1,628,550;gt-55,000;gt2.2;gt32;gt76 %;gt1.08 %
+Germany;gt83,783,942;gt0.32 %;gt266,897;gt240;gt348,560;gt543,822;gt1.6;gt46;gt76 %;gt1.07 %
+Thailand;gt69,799,978;gt0.25 %;gt174,396;gt137;gt510,890;gt19,444;gt1.5;gt40;gt51 %;gt0.90 %
+United Kingdom;gt67,886,011;gt0.53 %;gt355,839;gt281;gt241,930;gt260,650;gt1.8;gt40;gt83 %;gt0.87 %
+France;gt65,273,511;gt0.22 %;gt143,783;gt119;gt547,557;gt36,527;gt1.9;gt42;gt82 %;gt0.84 %
+Italy;gt60,461,826;gt-0.15 %;gt-88,249;gt206;gt294,140;gt148,943;gt1.3;gt47;gt69 %;gt0.78 %
+Tanzania;gt59,734,218;gt2.98 %;gt1,728,755;gt67;gt885,800;gt-40,076;gt4.9;gt18;gt37 %;gt0.77 %
+South Africa;gt59,308,690;gt1.28 %;gt750,420;gt49;gt1,213,090;gt145,405;gt2.4;gt28;gt67 %;gt0.76 %
+Myanmar;gt54,409,800;gt0.67 %;gt364,380;gt83;gt653,290;gt-163,313;gt2.2;gt29;gt31 %;gt0.70 %
+Kenya;gt53,771,296;gt2.28 %;gt1,197,323;gt94;gt569,140;gt-10,000;gt3.5;gt20;gt28 %;gt0.69 %
+South Korea;gt51,269,185;gt0.09 %;gt43,877;gt527;gt97,230;gt11,731;gt1.1;gt44;gt82 %;gt0.66 %
+Colombia;gt50,882,891;gt1.08 %;gt543,448;gt46;gt1,109,500;gt204,796;gt1.8;gt31;gt80 %;gt0.65 %
+Spain;gt46,754,778;gt0.04 %;gt18,002;gt94;gt498,800;gt40,000;gt1.3;gt45;gt80 %;gt0.60 %
+Uganda;gt45,741,007;gt3.32 %;gt1,471,413;gt229;gt199,810;gt168,694;gt5.0;gt17;gt26 %;gt0.59 %
+Argentina;gt45,195,774;gt0.93 %;gt415,097;gt17;gt2,736,690;gt4,800;gt2.3;gt32;gt93 %;gt0.58 %
+Algeria;gt43,851,044;gt1.85 %;gt797,990;gt18;gt2,381,740;gt-10,000;gt3.1;gt29;gt73 %;gt0.56 %
+Sudan;gt43,849,260;gt2.42 %;gt1,036,022;gt25;gt1,765,048;gt-50,000;gt4.4;gt20;gt35 %;gt0.56 %
+Ukraine;gt43,733,762;gt-0.59 %;gt-259,876;gt75;gt579,320;gt10,000;gt1.4;gt41;gt69 %;gt0.56 %
+Iraq;gt40,222,493;gt2.32 %;gt912,710;gt93;gt434,320;gt7,834;gt3.7;gt21;gt73 %;gt0.52 %
+Afghanistan;gt38,928,346;gt2.33 %;gt886,592;gt60;gt652,860;gt-62,920;gt4.6;gt18;gt25 %;gt0.50 %
+Poland;gt37,846,611;gt-0.11 %;gt-41,157;gt124;gt306,230;gt-29,395;gt1.4;gt42;gt60 %;gt0.49 %
+Canada;gt37,742,154;gt0.89 %;gt331,107;gt4;gt9,093,510;gt242,032;gt1.5;gt41;gt81 %;gt0.48 %
+Morocco;gt36,910,560;gt1.20 %;gt438,791;gt83;gt446,300;gt-51,419;gt2.4;gt30;gt64 %;gt0.47 %
+Saudi Arabia;gt34,813,871;gt1.59 %;gt545,343;gt16;gt2,149,690;gt134,979;gt2.3;gt32;gt84 %;gt0.45 %
+Uzbekistan;gt33,469,203;gt1.48 %;gt487,487;gt79;gt425,400;gt-8,863;gt2.4;gt28;gt50 %;gt0.43 %
+Peru;gt32,971,854;gt1.42 %;gt461,401;gt26;gt1,280,000;gt99,069;gt2.3;gt31;gt79 %;gt0.42 %
+Angola;gt32,866,272;gt3.27 %;gt1,040,977;gt26;gt1,246,700;gt6,413;gt5.6;gt17;gt67 %;gt0.42 %
+Malaysia;gt32,365,999;gt1.30 %;gt416,222;gt99;gt328,550;gt50,000;gt2.0;gt30;gt78 %;gt0.42 %
+Mozambique;gt31,255,435;gt2.93 %;gt889,399;gt40;gt786,380;gt-5,000;gt4.9;gt18;gt38 %;gt0.40 %
+Ghana;gt31,072,940;gt2.15 %;gt655,084;gt137;gt227,540;gt-10,000;gt3.9;gt22;gt57 %;gt0.40 %
+Yemen;gt29,825,964;gt2.28 %;gt664,042;gt56;gt527,970;gt-30,000;gt3.8;gt20;gt38 %;gt0.38 %
+Nepal;gt29,136,808;gt1.85 %;gt528,098;gt203;gt143,350;gt41,710;gt1.9;gt25;gt21 %;gt0.37 %
+Venezuela;gt28,435,940;gt-0.28 %;gt-79,889;gt32;gt882,050;gt-653,249;gt2.3;gt30;gtN.A.;gt0.36 %
+Madagascar;gt27,691,018;gt2.68 %;gt721,711;gt48;gt581,795;gt-1,500;gt4.1;gt20;gt39 %;gt0.36 %
+Cameroon;gt26,545,863;gt2.59 %;gt669,483;gt56;gt472,710;gt-4,800;gt4.6;gt19;gt56 %;gt0.34 %
+Côte d'Ivoire;gt26,378,274;gt2.57 %;gt661,730;gt83;gt318,000;gt-8,000;gt4.7;gt19;gt51 %;gt0.34 %
+North Korea;gt25,778,816;gt0.44 %;gt112,655;gt214;gt120,410;gt-5,403;gt1.9;gt35;gt63 %;gt0.33 %
+Australia;gt25,499,884;gt1.18 %;gt296,686;gt3;gt7,682,300;gt158,246;gt1.8;gt38;gt86 %;gt0.33 %
+Niger;gt24,206,644;gt3.84 %;gt895,929;gt19;gt1,266,700;gt4,000;gt7.0;gt15;gt17 %;gt0.31 %
+Taiwan;gt23,816,775;gt0.18 %;gt42,899;gt673;gt35,410;gt30,001;gt1.2;gt42;gt79 %;gt0.31 %
+Sri Lanka;gt21,413,249;gt0.42 %;gt89,516;gt341;gt62,710;gt-97,986;gt2.2;gt34;gt18 %;gt0.27 %
+Burkina Faso;gt20,903,273;gt2.86 %;gt581,895;gt76;gt273,600;gt-25,000;gt5.2;gt18;gt31 %;gt0.27 %
+Mali;gt20,250,833;gt3.02 %;gt592,802;gt17;gt1,220,190;gt-40,000;gt5.9;gt16;gt44 %;gt0.26 %
+Romania;gt19,237,691;gt-0.66 %;gt-126,866;gt84;gt230,170;gt-73,999;gt1.6;gt43;gt55 %;gt0.25 %
+Malawi;gt19,129,952;gt2.69 %;gt501,205;gt203;gt94,280;gt-16,053;gt4.3;gt18;gt18 %;gt0.25 %
+Chile;gt19,116,201;gt0.87 %;gt164,163;gt26;gt743,532;gt111,708;gt1.7;gt35;gt85 %;gt0.25 %
+Kazakhstan;gt18,776,707;gt1.21 %;gt225,280;gt7;gt2,699,700;gt-18,000;gt2.8;gt31;gt58 %;gt0.24 %
+Zambia;gt18,383,955;gt2.93 %;gt522,925;gt25;gt743,390;gt-8,000;gt4.7;gt18;gt45 %;gt0.24 %
+Guatemala;gt17,915,568;gt1.90 %;gt334,096;gt167;gt107,160;gt-9,215;gt2.9;gt23;gt52 %;gt0.23 %
+Ecuador;gt17,643,054;gt1.55 %;gt269,392;gt71;gt248,360;gt36,400;gt2.4;gt28;gt63 %;gt0.23 %
+Syria;gt17,500,658;gt2.52 %;gt430,523;gt95;gt183,630;gt-427,391;gt2.8;gt26;gt60 %;gt0.22 %
+Netherlands;gt17,134,872;gt0.22 %;gt37,742;gt508;gt33,720;gt16,000;gt1.7;gt43;gt92 %;gt0.22 %
+Senegal;gt16,743,927;gt2.75 %;gt447,563;gt87;gt192,530;gt-20,000;gt4.7;gt19;gt49 %;gt0.21 %
+Cambodia;gt16,718,965;gt1.41 %;gt232,423;gt95;gt176,520;gt-30,000;gt2.5;gt26;gt24 %;gt0.21 %
+Chad;gt16,425,864;gt3.00 %;gt478,988;gt13;gt1,259,200;gt2,000;gt5.8;gt17;gt23 %;gt0.21 %
+Somalia;gt15,893,222;gt2.92 %;gt450,317;gt25;gt627,340;gt-40,000;gt6.1;gt17;gt47 %;gt0.20 %
+Zimbabwe;gt14,862,924;gt1.48 %;gt217,456;gt38;gt386,850;gt-116,858;gt3.6;gt19;gt38 %;gt0.19 %
+Guinea;gt13,132,795;gt2.83 %;gt361,549;gt53;gt245,720;gt-4,000;gt4.7;gt18;gt39 %;gt0.17 %
+Rwanda;gt12,952,218;gt2.58 %;gt325,268;gt525;gt24,670;gt-9,000;gt4.1;gt20;gt18 %;gt0.17 %
+Benin;gt12,123,200;gt2.73 %;gt322,049;gt108;gt112,760;gt-2,000;gt4.9;gt19;gt48 %;gt0.16 %
+Burundi;gt11,890,784;gt3.12 %;gt360,204;gt463;gt25,680;gt2,001;gt5.5;gt17;gt14 %;gt0.15 %
+Tunisia;gt11,818,619;gt1.06 %;gt123,900;gt76;gt155,360;gt-4,000;gt2.2;gt33;gt70 %;gt0.15 %
+Bolivia;gt11,673,021;gt1.39 %;gt159,921;gt11;gt1,083,300;gt-9,504;gt2.8;gt26;gt69 %;gt0.15 %
+Belgium;gt11,589,623;gt0.44 %;gt50,295;gt383;gt30,280;gt48,000;gt1.7;gt42;gt98 %;gt0.15 %
+Haiti;gt11,402,528;gt1.24 %;gt139,451;gt414;gt27,560;gt-35,000;gt3.0;gt24;gt57 %;gt0.15 %
+Cuba;gt11,326,616;gt-0.06 %;gt-6,867;gt106;gt106,440;gt-14,400;gt1.6;gt42;gt78 %;gt0.15 %
+South Sudan;gt11,193,725;gt1.19 %;gt131,612;gt18;gt610,952;gt-174,200;gt4.7;gt19;gt25 %;gt0.14 %
+Dominican Republic;gt10,847,910;gt1.01 %;gt108,952;gt225;gt48,320;gt-30,000;gt2.4;gt28;gt85 %;gt0.14 %
+Czech Republic (Czechia);gt10,708,981;gt0.18 %;gt19,772;gt139;gt77,240;gt22,011;gt1.6;gt43;gt74 %;gt0.14 %
+Greece;gt10,423,054;gt-0.48 %;gt-50,401;gt81;gt128,900;gt-16,000;gt1.3;gt46;gt85 %;gt0.13 %
+Jordan;gt10,203,134;gt1.00 %;gt101,440;gt115;gt88,780;gt10,220;gt2.8;gt24;gt91 %;gt0.13 %
+Portugal;gt10,196,709;gt-0.29 %;gt-29,478;gt111;gt91,590;gt-6,000;gt1.3;gt46;gt66 %;gt0.13 %
+Azerbaijan;gt10,139,177;gt0.91 %;gt91,459;gt123;gt82,658;gt1,200;gt2.1;gt32;gt56 %;gt0.13 %
+Sweden;gt10,099,265;gt0.63 %;gt62,886;gt25;gt410,340;gt40,000;gt1.9;gt41;gt88 %;gt0.13 %
+Honduras;gt9,904,607;gt1.63 %;gt158,490;gt89;gt111,890;gt-6,800;gt2.5;gt24;gt57 %;gt0.13 %
+United Arab Emirates;gt9,890,402;gt1.23 %;gt119,873;gt118;gt83,600;gt40,000;gt1.4;gt33;gt86 %;gt0.13 %
+Hungary;gt9,660,351;gt-0.25 %;gt-24,328;gt107;gt90,530;gt6,000;gt1.5;gt43;gt72 %;gt0.12 %
+Tajikistan;gt9,537,645;gt2.32 %;gt216,627;gt68;gt139,960;gt-20,000;gt3.6;gt22;gt27 %;gt0.12 %
+Belarus;gt9,449,323;gt-0.03 %;gt-3,088;gt47;gt202,910;gt8,730;gt1.7;gt40;gt79 %;gt0.12 %
+Austria;gt9,006,398;gt0.57 %;gt51,296;gt109;gt82,409;gt65,000;gt1.5;gt43;gt57 %;gt0.12 %
+Papua New Guinea;gt8,947,024;gt1.95 %;gt170,915;gt20;gt452,860;gt-800;gt3.6;gt22;gt13 %;gt0.11 %
+Serbia;gt8,737,371;gt-0.40 %;gt-34,864;gt100;gt87,460;gt4,000;gt1.5;gt42;gt56 %;gt0.11 %
+Israel;gt8,655,535;gt1.60 %;gt136,158;gt400;gt21,640;gt10,000;gt3.0;gt30;gt93 %;gt0.11 %
+Switzerland;gt8,654,622;gt0.74 %;gt63,257;gt219;gt39,516;gt52,000;gt1.5;gt43;gt74 %;gt0.11 %
+Togo;gt8,278,724;gt2.43 %;gt196,358;gt152;gt54,390;gt-2,000;gt4.4;gt19;gt43 %;gt0.11 %
+Sierra Leone;gt7,976,983;gt2.10 %;gt163,768;gt111;gt72,180;gt-4,200;gt4.3;gt19;gt43 %;gt0.10 %
+Hong Kong;gt7,496,981;gt0.82 %;gt60,827;gt7,140;gt1,050;gt29,308;gt1.3;gt45;gtN.A.;gt0.10 %
+Laos;gt7,275,560;gt1.48 %;gt106,105;gt32;gt230,800;gt-14,704;gt2.7;gt24;gt36 %;gt0.09 %
+Paraguay;gt7,132,538;gt1.25 %;gt87,902;gt18;gt397,300;gt-16,556;gt2.4;gt26;gt62 %;gt0.09 %
+Bulgaria;gt6,948,445;gt-0.74 %;gt-51,674;gt64;gt108,560;gt-4,800;gt1.6;gt45;gt76 %;gt0.09 %
+Libya;gt6,871,292;gt1.38 %;gt93,840;gt4;gt1,759,540;gt-1,999;gt2.3;gt29;gt78 %;gt0.09 %
+Lebanon;gt6,825,445;gt-0.44 %;gt-30,268;gt667;gt10,230;gt-30,012;gt2.1;gt30;gt78 %;gt0.09 %
+Nicaragua;gt6,624,554;gt1.21 %;gt79,052;gt55;gt120,340;gt-21,272;gt2.4;gt26;gt57 %;gt0.08 %
+Kyrgyzstan;gt6,524,195;gt1.69 %;gt108,345;gt34;gt191,800;gt-4,000;gt3.0;gt26;gt36 %;gt0.08 %
+El Salvador;gt6,486,205;gt0.51 %;gt32,652;gt313;gt20,720;gt-40,539;gt2.1;gt28;gt73 %;gt0.08 %
+Turkmenistan;gt6,031,200;gt1.50 %;gt89,111;gt13;gt469,930;gt-5,000;gt2.8;gt27;gt53 %;gt0.08 %
+Singapore;gt5,850,342;gt0.79 %;gt46,005;gt8,358;gt700;gt27,028;gt1.2;gt42;gtN.A.;gt0.08 %
+Denmark;gt5,792,202;gt0.35 %;gt20,326;gt137;gt42,430;gt15,200;gt1.8;gt42;gt88 %;gt0.07 %
+Finland;gt5,540,720;gt0.15 %;gt8,564;gt18;gt303,890;gt14,000;gt1.5;gt43;gt86 %;gt0.07 %
+Congo;gt5,518,087;gt2.56 %;gt137,579;gt16;gt341,500;gt-4,000;gt4.5;gt19;gt70 %;gt0.07 %
+Slovakia;gt5,459,642;gt0.05 %;gt2,629;gt114;gt48,088;gt1,485;gt1.5;gt41;gt54 %;gt0.07 %
+Norway;gt5,421,241;gt0.79 %;gt42,384;gt15;gt365,268;gt28,000;gt1.7;gt40;gt83 %;gt0.07 %
+Oman;gt5,106,626;gt2.65 %;gt131,640;gt16;gt309,500;gt87,400;gt2.9;gt31;gt87 %;gt0.07 %
+State of Palestine;gt5,101,414;gt2.41 %;gt119,994;gt847;gt6,020;gt-10,563;gt3.7;gt21;gt80 %;gt0.07 %
+Costa Rica;gt5,094,118;gt0.92 %;gt46,557;gt100;gt51,060;gt4,200;gt1.8;gt33;gt80 %;gt0.07 %
+Liberia;gt5,057,681;gt2.44 %;gt120,307;gt53;gt96,320;gt-5,000;gt4.4;gt19;gt53 %;gt0.06 %
+Ireland;gt4,937,786;gt1.13 %;gt55,291;gt72;gt68,890;gt23,604;gt1.8;gt38;gt63 %;gt0.06 %
+Central African Republic;gt4,829,767;gt1.78 %;gt84,582;gt8;gt622,980;gt-40,000;gt4.8;gt18;gt43 %;gt0.06 %
+New Zealand;gt4,822,233;gt0.82 %;gt39,170;gt18;gt263,310;gt14,881;gt1.9;gt38;gt87 %;gt0.06 %
+Mauritania;gt4,649,658;gt2.74 %;gt123,962;gt5;gt1,030,700;gt5,000;gt4.6;gt20;gt57 %;gt0.06 %
+Panama;gt4,314,767;gt1.61 %;gt68,328;gt58;gt74,340;gt11,200;gt2.5;gt30;gt68 %;gt0.06 %
+Kuwait;gt4,270,571;gt1.51 %;gt63,488;gt240;gt17,820;gt39,520;gt2.1;gt37;gtN.A.;gt0.05 %
+Croatia;gt4,105,267;gt-0.61 %;gt-25,037;gt73;gt55,960;gt-8,001;gt1.4;gt44;gt58 %;gt0.05 %
+Moldova;gt4,033,963;gt-0.23 %;gt-9,300;gt123;gt32,850;gt-1,387;gt1.3;gt38;gt43 %;gt0.05 %
+Georgia;gt3,989,167;gt-0.19 %;gt-7,598;gt57;gt69,490;gt-10,000;gt2.1;gt38;gt58 %;gt0.05 %
+Eritrea;gt3,546,421;gt1.41 %;gt49,304;gt35;gt101,000;gt-39,858;gt4.1;gt19;gt63 %;gt0.05 %
+Uruguay;gt3,473,730;gt0.35 %;gt11,996;gt20;gt175,020;gt-3,000;gt2.0;gt36;gt96 %;gt0.04 %
+Bosnia and Herzegovina;gt3,280,819;gt-0.61 %;gt-20,181;gt64;gt51,000;gt-21,585;gt1.3;gt43;gt52 %;gt0.04 %
+Mongolia;gt3,278,290;gt1.65 %;gt53,123;gt2;gt1,553,560;gt-852;gt2.9;gt28;gt67 %;gt0.04 %
+Armenia;gt2,963,243;gt0.19 %;gt5,512;gt104;gt28,470;gt-4,998;gt1.8;gt35;gt63 %;gt0.04 %
+Jamaica;gt2,961,167;gt0.44 %;gt12,888;gt273;gt10,830;gt-11,332;gt2.0;gt31;gt55 %;gt0.04 %
+Qatar;gt2,881,053;gt1.73 %;gt48,986;gt248;gt11,610;gt40,000;gt1.9;gt32;gt96 %;gt0.04 %
+Albania;gt2,877,797;gt-0.11 %;gt-3,120;gt105;gt27,400;gt-14,000;gt1.6;gt36;gt63 %;gt0.04 %
+Puerto Rico;gt2,860,853;gt-2.47 %;gt-72,555;gt323;gt8,870;gt-97,986;gt1.2;gt44;gtN.A.;gt0.04 %
+Lithuania;gt2,722,289;gt-1.35 %;gt-37,338;gt43;gt62,674;gt-32,780;gt1.7;gt45;gt71 %;gt0.03 %
+Namibia;gt2,540,905;gt1.86 %;gt46,375;gt3;gt823,290;gt-4,806;gt3.4;gt22;gt55 %;gt0.03 %
+Gambia;gt2,416,668;gt2.94 %;gt68,962;gt239;gt10,120;gt-3,087;gt5.3;gt18;gt59 %;gt0.03 %
+Botswana;gt2,351,627;gt2.08 %;gt47,930;gt4;gt566,730;gt3,000;gt2.9;gt24;gt73 %;gt0.03 %
+Gabon;gt2,225,734;gt2.45 %;gt53,155;gt9;gt257,670;gt3,260;gt4.0;gt23;gt87 %;gt0.03 %
+Lesotho;gt2,142,249;gt0.80 %;gt16,981;gt71;gt30,360;gt-10,047;gt3.2;gt24;gt31 %;gt0.03 %
+North Macedonia;gt2,083,374;gt0.00 %;gt-85;gt83;gt25,220;gt-1,000;gt1.5;gt39;gt59 %;gt0.03 %
+Slovenia;gt2,078,938;gt0.01 %;gt284;gt103;gt20,140;gt2,000;gt1.6;gt45;gt55 %;gt0.03 %
+Guinea-Bissau;gt1,968,001;gt2.45 %;gt47,079;gt70;gt28,120;gt-1,399;gt4.5;gt19;gt45 %;gt0.03 %
+Latvia;gt1,886,198;gt-1.08 %;gt-20,545;gt30;gt62,200;gt-14,837;gt1.7;gt44;gt69 %;gt0.02 %
+Bahrain;gt1,701,575;gt3.68 %;gt60,403;gt2,239;gt760;gt47,800;gt2.0;gt32;gt89 %;gt0.02 %
+Equatorial Guinea;gt1,402,985;gt3.47 %;gt46,999;gt50;gt28,050;gt16,000;gt4.6;gt22;gt73 %;gt0.02 %
+Trinidad and Tobago;gt1,399,488;gt0.32 %;gt4,515;gt273;gt5,130;gt-800;gt1.7;gt36;gt52 %;gt0.02 %
+Estonia;gt1,326,535;gt0.07 %;gt887;gt31;gt42,390;gt3,911;gt1.6;gt42;gt68 %;gt0.02 %
+Timor-Leste;gt1,318,445;gt1.96 %;gt25,326;gt89;gt14,870;gt-5,385;gt4.1;gt21;gt33 %;gt0.02 %
+Mauritius;gt1,271,768;gt0.17 %;gt2,100;gt626;gt2,030;gt0;gt1.4;gt37;gt41 %;gt0.02 %
+Cyprus;gt1,207,359;gt0.73 %;gt8,784;gt131;gt9,240;gt5,000;gt1.3;gt37;gt67 %;gt0.02 %
+Eswatini;gt1,160,164;gt1.05 %;gt12,034;gt67;gt17,200;gt-8,353;gt3.0;gt21;gt30 %;gt0.01 %
+Djibouti;gt988,000;gt1.48 %;gt14,440;gt43;gt23,180;gt900;gt2.8;gt27;gt79 %;gt0.01 %
+Fiji;gt896,445;gt0.73 %;gt6,492;gt49;gt18,270;gt-6,202;gt2.8;gt28;gt59 %;gt0.01 %
+Réunion;gt895,312;gt0.72 %;gt6,385;gt358;gt2,500;gt-1,256;gt2.3;gt36;gt100 %;gt0.01 %
+Comoros;gt869,601;gt2.20 %;gt18,715;gt467;gt1,861;gt-2,000;gt4.2;gt20;gt29 %;gt0.01 %
+Guyana;gt786,552;gt0.48 %;gt3,786;gt4;gt196,850;gt-6,000;gt2.5;gt27;gt27 %;gt0.01 %
+Bhutan;gt771,608;gt1.12 %;gt8,516;gt20;gt38,117;gt320;gt2.0;gt28;gt46 %;gt0.01 %
+Solomon Islands;gt686,884;gt2.55 %;gt17,061;gt25;gt27,990;gt-1,600;gt4.4;gt20;gt23 %;gt0.01 %
+Macao;gt649,335;gt1.39 %;gt8,890;gt21,645;gt30;gt5,000;gt1.2;gt39;gtN.A.;gt0.01 %
+Montenegro;gt628,066;gt0.01 %;gt79;gt47;gt13,450;gt-480;gt1.8;gt39;gt68 %;gt0.01 %
+Luxembourg;gt625,978;gt1.66 %;gt10,249;gt242;gt2,590;gt9,741;gt1.5;gt40;gt88 %;gt0.01 %
+Western Sahara;gt597,339;gt2.55 %;gt14,876;gt2;gt266,000;gt5,582;gt2.4;gt28;gt87 %;gt0.01 %
+Suriname;gt586,632;gt0.90 %;gt5,260;gt4;gt156,000;gt-1,000;gt2.4;gt29;gt65 %;gt0.01 %
+Cabo Verde;gt555,987;gt1.10 %;gt6,052;gt138;gt4,030;gt-1,342;gt2.3;gt28;gt68 %;gt0.01 %
+Micronesia;gt548,914;gt1.00 %;gt5,428;gt784;gt700;gt-2,957;gt2.9;gt27;gt68 %;gt0.01 %
+Maldives;gt540,544;gt1.81 %;gt9,591;gt1,802;gt300;gt11,370;gt1.9;gt30;gt35 %;gt0.01 %
+Malta;gt441,543;gt0.27 %;gt1,171;gt1,380;gt320;gt900;gt1.5;gt43;gt93 %;gt0.01 %
+Brunei ;gt437,479;gt0.97 %;gt4,194;gt83;gt5,270;gt0;gt1.8;gt32;gt80 %;gt0.01 %
+Guadeloupe;gt400,124;gt0.02 %;gt68;gt237;gt1,690;gt-1,440;gt2.2;gt44;gtN.A.;gt0.01 %
+Belize;gt397,628;gt1.86 %;gt7,275;gt17;gt22,810;gt1,200;gt2.3;gt25;gt46 %;gt0.01 %
+Bahamas;gt393,244;gt0.97 %;gt3,762;gt39;gt10,010;gt1,000;gt1.8;gt32;gt86 %;gt0.01 %
+Martinique;gt375,265;gt-0.08 %;gt-289;gt354;gt1,060;gt-960;gt1.9;gt47;gt92 %;gt0.00 %
+Iceland;gt341,243;gt0.65 %;gt2,212;gt3;gt100,250;gt380;gt1.8;gt37;gt94 %;gt0.00 %
+Vanuatu;gt307,145;gt2.42 %;gt7,263;gt25;gt12,190;gt120;gt3.8;gt21;gt24 %;gt0.00 %
+French Guiana;gt298,682;gt2.70 %;gt7,850;gt4;gt82,200;gt1,200;gt3.4;gt25;gt87 %;gt0.00 %
+Barbados;gt287,375;gt0.12 %;gt350;gt668;gt430;gt-79;gt1.6;gt40;gt31 %;gt0.00 %
+New Caledonia;gt285,498;gt0.97 %;gt2,748;gt16;gt18,280;gt502;gt2.0;gt34;gt72 %;gt0.00 %
+French Polynesia;gt280,908;gt0.58 %;gt1,621;gt77;gt3,660;gt-1,000;gt2.0;gt34;gt64 %;gt0.00 %
+Mayotte;gt272,815;gt2.50 %;gt6,665;gt728;gt375;gt0;gt3.7;gt20;gt46 %;gt0.00 %
+Sao Tome & Principe;gt219,159;gt1.91 %;gt4,103;gt228;gt960;gt-1,680;gt4.4;gt19;gt74 %;gt0.00 %
+Samoa;gt198,414;gt0.67 %;gt1,317;gt70;gt2,830;gt-2,803;gt3.9;gt22;gt18 %;gt0.00 %
+Saint Lucia;gt183,627;gt0.46 %;gt837;gt301;gt610;gt0;gt1.4;gt34;gt19 %;gt0.00 %
+Channel Islands;gt173,863;gt0.93 %;gt1,604;gt915;gt190;gt1,351;gt1.5;gt43;gt30 %;gt0.00 %
+Guam;gt168,775;gt0.89 %;gt1,481;gt313;gt540;gt-506;gt2.3;gt31;gt95 %;gt0.00 %
+Curaçao;gt164,093;gt0.41 %;gt669;gt370;gt444;gt515;gt1.8;gt42;gt89 %;gt0.00 %
+Kiribati;gt119,449;gt1.57 %;gt1,843;gt147;gt810;gt-800;gt3.6;gt23;gt57 %;gt0.00 %
+Grenada;gt112,523;gt0.46 %;gt520;gt331;gt340;gt-200;gt2.1;gt32;gt35 %;gt0.00 %
+St. Vincent & Grenadines;gt110,940;gt0.32 %;gt351;gt284;gt390;gt-200;gt1.9;gt33;gt53 %;gt0.00 %
+Aruba;gt106,766;gt0.43 %;gt452;gt593;gt180;gt201;gt1.9;gt41;gt44 %;gt0.00 %
+Tonga;gt105,695;gt1.15 %;gt1,201;gt147;gt720;gt-800;gt3.6;gt22;gt24 %;gt0.00 %
+U.S. Virgin Islands;gt104,425;gt-0.15 %;gt-153;gt298;gt350;gt-451;gt2.0;gt43;gt96 %;gt0.00 %
+Seychelles;gt98,347;gt0.62 %;gt608;gt214;gt460;gt-200;gt2.5;gt34;gt56 %;gt0.00 %
+Antigua and Barbuda;gt97,929;gt0.84 %;gt811;gt223;gt440;gt0;gt2.0;gt34;gt26 %;gt0.00 %
+Isle of Man;gt85,033;gt0.53 %;gt449;gt149;gt570;gt ;gtN.A.;gtN.A.;gt53 %;gt0.00 %
+Andorra;gt77,265;gt0.16 %;gt123;gt164;gt470;gt ;gtN.A.;gtN.A.;gt88 %;gt0.00 %
+Dominica;gt71,986;gt0.25 %;gt178;gt96;gt750;gt ;gtN.A.;gtN.A.;gt74 %;gt0.00 %
+Cayman Islands;gt65,722;gt1.19 %;gt774;gt274;gt240;gt ;gtN.A.;gtN.A.;gt97 %;gt0.00 %
+Bermuda;gt62,278;gt-0.36 %;gt-228;gt1,246;gt50;gt ;gtN.A.;gtN.A.;gt97 %;gt0.00 %
+Marshall Islands;gt59,190;gt0.68 %;gt399;gt329;gt180;gt ;gtN.A.;gtN.A.;gt70 %;gt0.00 %
+Northern Mariana Islands;gt57,559;gt0.60 %;gt343;gt125;gt460;gt ;gtN.A.;gtN.A.;gt88 %;gt0.00 %
+Greenland;gt56,770;gt0.17 %;gt98;gt0;gt410,450;gt ;gtN.A.;gtN.A.;gt87 %;gt0.00 %
+American Samoa;gt55,191;gt-0.22 %;gt-121;gt276;gt200;gt ;gtN.A.;gtN.A.;gt88 %;gt0.00 %
+Saint Kitts & Nevis;gt53,199;gt0.71 %;gt376;gt205;gt260;gt ;gtN.A.;gtN.A.;gt33 %;gt0.00 %
+Faeroe Islands;gt48,863;gt0.38 %;gt185;gt35;gt1,396;gt ;gtN.A.;gtN.A.;gt43 %;gt0.00 %
+Sint Maarten;gt42,876;gt1.15 %;gt488;gt1,261;gt34;gt ;gtN.A.;gtN.A.;gt96 %;gt0.00 %
+Monaco;gt39,242;gt0.71 %;gt278;gt26,337;gt1;gt ;gtN.A.;gtN.A.;gtN.A.;gt0.00 %
+Turks and Caicos;gt38,717;gt1.38 %;gt526;gt41;gt950;gt ;gtN.A.;gtN.A.;gt89 %;gt0.00 %
+Saint Martin;gt38,666;gt1.75 %;gt664;gt730;gt53;gt ;gtN.A.;gtN.A.;gt0 %;gt0.00 %
+Liechtenstein;gt38,128;gt0.29 %;gt109;gt238;gt160;gt ;gtN.A.;gtN.A.;gt15 %;gt0.00 %
+San Marino;gt33,931;gt0.21 %;gt71;gt566;gt60;gt ;gtN.A.;gtN.A.;gt97 %;gt0.00 %
+Gibraltar;gt33,691;gt-0.03 %;gt-10;gt3,369;gt10;gt ;gtN.A.;gtN.A.;gtN.A.;gt0.00 %
+British Virgin Islands;gt30,231;gt0.67 %;gt201;gt202;gt150;gt ;gtN.A.;gtN.A.;gt52 %;gt0.00 %
+Caribbean Netherlands;gt26,223;gt0.94 %;gt244;gt80;gt328;gt ;gtN.A.;gtN.A.;gt75 %;gt0.00 %
+Palau;gt18,094;gt0.48 %;gt86;gt39;gt460;gt ;gtN.A.;gtN.A.;gtN.A.;gt0.00 %
+Cook Islands;gt17,564;gt0.09 %;gt16;gt73;gt240;gt ;gtN.A.;gtN.A.;gt75 %;gt0.00 %
+Anguilla;gt15,003;gt0.90 %;gt134;gt167;gt90;gt ;gtN.A.;gtN.A.;gtN.A.;gt0.00 %
+Tuvalu;gt11,792;gt1.25 %;gt146;gt393;gt30;gt ;gtN.A.;gtN.A.;gt62 %;gt0.00 %
+Wallis & Futuna;gt11,239;gt-1.69 %;gt-193;gt80;gt140;gt ;gtN.A.;gtN.A.;gt0 %;gt0.00 %
+Nauru;gt10,824;gt0.63 %;gt68;gt541;gt20;gt ;gtN.A.;gtN.A.;gtN.A.;gt0.00 %
+Saint Barthelemy;gt9,877;gt0.30 %;gt30;gt470;gt21;gt ;gtN.A.;gtN.A.;gt0 %;gt0.00 %
+Saint Helena;gt6,077;gt0.30 %;gt18;gt16;gt390;gt ;gtN.A.;gtN.A.;gt27 %;gt0.00 %
+Saint Pierre & Miquelon;gt5,794;gt-0.48 %;gt-28;gt25;gt230;gt ;gtN.A.;gtN.A.;gt100 %;gt0.00 %
+Montserrat;gt4,992;gt0.06 %;gt3;gt50;gt100;gt ;gtN.A.;gtN.A.;gt10 %;gt0.00 %
+Falkland Islands;gt3,480;gt3.05 %;gt103;gt0;gt12,170;gt ;gtN.A.;gtN.A.;gt66 %;gt0.00 %
+Niue;gt1,626;gt0.68 %;gt11;gt6;gt260;gt ;gtN.A.;gtN.A.;gt46 %;gt0.00 %
+Tokelau;gt1,357;gt1.27 %;gt17;gt136;gt10;gt ;gtN.A.;gtN.A.;gt0 %;gt0.00 %
+Holy See;gt801;gt0.25 %;gt2;gt2,003;gt0;gt ;gtN.A.;gtN.A.;gtN.A.;gt0.00 %
