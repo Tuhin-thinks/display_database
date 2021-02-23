@@ -29,7 +29,7 @@ def view_db():
     data = models.MainDB.query.all()
     table_name = models.MainDB.__tablename__
     columns = models.MainDB.metadata.tables[table_name].columns.keys()
-    print(f"table_columns:{columns}")
+    # print(f"table_columns:{columns}")
     return render_template('view.html', table_data=data, columns=columns, table_name=models.MainDB.__tablename__)
 
 @app.route("/add",methods=['GET', 'POST'])

@@ -1,16 +1,12 @@
 {% extends "base.html" %}
 
 
-{% block title %}
-  {{ super() }}
-    CRUD -View Database
-  {% endblock %}
-{% block head %}
-  {{ super() }}
+{% block head %}{{ super() }}
+	{% block title %}
+		View Database - CRUD
+	{% endblock %}
 {% endblock %}
-{% block navbar %}
-{{ super() }}
-{% endblock %}
+{% block navbar %}{{ super() }}{% endblock %}
 <!-- table code starts -->
 {% block body %}
 {{ super() }}
@@ -29,7 +25,7 @@
   <tbody>
     {% for item in table_data %}
     {% set outer_loop = loop %}
-    <tr onclick="fncEditCell(this)" >
+    <tr>
         {% for  head in columns %}
         <!-- <td class="row_data">{{ item[head] }}</td> -->
         <td>
@@ -61,35 +57,37 @@
     </tr>
   </tfoot>
 </table>
+
+<!-- Modal div post result -->
+<div id="res_div" class="modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title">Modal title</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div id="modal_body" class="modal-body">
+		  <p>Modal body text goes here.</p>
+		</div>
+		<div class="modal-footer">
+		  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+		  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!-- <button id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#res_div" visibility="hidden">
+	Launch demo modal
+  </button> -->
+
 <!-- Handle save and cancel buttons display -->
 <script>
   $(document).find('.btn_save').hide();
   $(document).find('.btn_cancel').hide();
   $(document).find('.input-group mb-3').hide();
 </script>
-
-
-<script>
-  //--->make div editable > start
-  $(document).on('click', '.row_data', function(event) 
-  {
-    event.preventDefault(); 
-
-    if($(this).attr('edit_type') == 'button')
-    {
-      return false; 
-    }
-
-    //make div editable
-    $(this).closest('div').attr('contenteditable', 'true');
-    //add bg css
-    $(this).addClass('bg-info').css('padding','5px');
-
-    $(this).focus();
-  })	
-//--->make div editable > end
-</script>
-
 
 <script>
   $(document).on('click', '.btn_edit', function(event) 
@@ -125,8 +123,7 @@
 //--->button > edit > end
 </script>
 <!-- Cancel entry -->
-<script>
-   //--->button > cancel > start	
+<script>	
 $(document).on('click', '.btn_cancel', function(event) 
 {
 	event.preventDefault();
@@ -157,9 +154,9 @@ $(document).on('click', '.btn_cancel', function(event)
 </script>
 <!-- Cancel entry end -->
 
-<script>
 
-//--->save whole row entery > start	
+<!-- save whole row entery > start	 -->
+<script>
 $(document).on('click', '.btn_save', function(event) 
 {
 	event.preventDefault();
@@ -196,50 +193,16 @@ $(document).on('click', '.btn_save', function(event)
 	$.extend(arr, {row_id:row_id});
 
 	//out put to show
-	$('.post_msg').html( '<pre class="bg-success">'+JSON.stringify(arr, null, 2) +'</pre>')
-	 
+	// alert( '<pre class="bg-success">'+JSON.stringify(arr, null, 2) +'</pre>');
+
+	$('#res_div').modal({
+		keyboard: false
+	});
+	$('#modal_body').html('<p>Your change request has be submitted successfully, will be finalized after review by the admin</p>');
+	$('h5.modal-title').html("Success!")
+	$("#res_div").modal('show');
 });
 //--->save whole row entery > end
 </script>
 
-<script>
-  //--->save single field data > start
-$(document).on('focusout', '.row_data', function(event) 
-{
-	event.preventDefault();
-
-	if($(this).attr('edit_type') == 'button')
-	{
-		return false; 
-	}
-
-	var row_id = $(this).closest('tr').attr('row_id'); 
-	
-	var row_div = $(this)			
-	.removeClass('bg-info') //add bg css
-	.css('padding','')
-
-	var col_name = row_div.attr('col_name'); 
-	var col_val = row_div.html(); 
-
-	var arr = {};
-	arr[col_name] = col_val;
-
-	//use the "arr"	object for your ajax call
-	$.extend(arr, {row_id:row_id});
-
-	//out put to show
-	$('.post_msg').html( '<pre class="bg-success">'+JSON.stringify(arr, null, 2) +'</pre>');
-	
-})	
-//--->save single field data > end
-</script>
-
-{% endblock %}
-{% block footer %}
-<script>
-  window.fncEditCell = function(argThis) {
-    // alert('Row number of Row Clicked: ' + argThis.rowIndex);
-};
-</script>
 {% endblock %}
