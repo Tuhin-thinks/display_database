@@ -35,6 +35,7 @@ def view_db():
 def update_db():
     data = request.form
     resp_dict = dict(data)  # retrieve data from front-end
+    print("ROW-DATA:", resp_dict)
     return json.dumps({'status':'OK'});
 
 @app.route("/add",methods=['GET', 'POST'])

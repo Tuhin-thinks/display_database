@@ -188,11 +188,7 @@ $(document).on('click', '.btn_save', function(event)
 	//--->get row data > end
 
 	//use the "arr"	object for your ajax call
-	$.extend(arr, {id:row_id});
-	
-	
-	console.log(arr);  // complete row data present in arr.
-	console.log("row_id:"+row_id);
+	$.extend(arr, {id:row_id});  // include new key "id" to the object arr with value row_id
 
 	// flask ajax post
 	$(function(){
