@@ -25,7 +25,7 @@
   <tbody>
     {% for item in table_data %}
     {% set outer_loop = loop %}
-    <tr>
+    <tr row_id="{{outer_loop.index-1}}">
         {% for  head in columns %}
         <!-- <td class="row_data">{{ item[head] }}</td> -->
         <td>
@@ -163,8 +163,6 @@ $(document).on('click', '.btn_save', function(event)
 	var tbl_row = $(this).closest('tr');
 
 	var row_id = tbl_row.attr('row_id');
-
-	
 	//hide save and cacel buttons
 	tbl_row.find('.btn_save').hide();
 	tbl_row.find('.btn_cancel').hide();
@@ -177,30 +175,54 @@ $(document).on('click', '.btn_save', function(event)
 	tbl_row.find('.row_data')
 	.attr('edit_type', 'click')	
 	.removeClass('bg-info')
-	.css('padding','') 
+	.css('padding','')
 
 	//--->get row data > start
 	var arr = {}; 
 	tbl_row.find('.row_data').each(function(index, val) 
 	{   
-		var col_name = $(this).attr('col_name');  
+		var col_name = $(this).attr('col_name');
 		var col_val  =  $(this).html();
 		arr[col_name] = col_val;
 	});
 	//--->get row data > end
 
 	//use the "arr"	object for your ajax call
-	$.extend(arr, {row_id:row_id});
+	$.extend(arr, {id:row_id});
+	
+	
+	console.log(arr);  // complete row data present in arr.
+	console.log("row_id:"+row_id);
 
-	//out put to show
-	// alert( '<pre class="bg-success">'+JSON.stringify(arr, null, 2) +'</pre>');
-
-	$('#res_div').modal({
-		keyboard: false
+	// flask ajax post
+	$(function(){
+		$.ajax(
+			{
+				url: '/update',
+				data: arr,
+				type: 'POST',
+				success: function(response){
+					$('#res_div').modal({
+					keyboard: false
+				});
+				data = $.parseJSON(response);
+				if(data["status"] === "OK"){
+					$('#modal_body').html('<p>Your update request has be submitted successfully, will be finalized after review by the admin</p>');
+					$('h5.modal-title').html("Success!");
+				}
+				else{
+					$('#modal_body').html('<p>Your update request failed</p>');
+					$('h5.modal-title').html("Failed!");
+				}
+					
+				$("#res_div").modal('show');
+				},
+				error: function(response){
+					console.log("error:"+response);
+				}
+			}
+		);
 	});
-	$('#modal_body').html('<p>Your change request has be submitted successfully, will be finalized after review by the admin</p>');
-	$('h5.modal-title').html("Success!")
-	$("#res_div").modal('show');
 });
 //--->save whole row entery > end
 </script>

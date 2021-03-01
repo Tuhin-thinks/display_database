@@ -24,13 +24,18 @@ create_app()
 def home():
     return render_template('home.html')
 
-@app.route("/view")
+@app.route("/view", methods=['GET'])
 def view_db():
     data = models.MainDB.query.all()
     table_name = models.MainDB.__tablename__
     columns = models.MainDB.metadata.tables[table_name].columns.keys()
-    # print(f"table_columns:{columns}")
     return render_template('view.html', table_data=data, columns=columns, table_name=models.MainDB.__tablename__)
+
+@app.route("/update", methods=['POST'])
+def update_db():
+    data = request.form
+    resp_dict = dict(data)  # retrieve data from front-end
+    return json.dumps({'status':'OK'});
 
 @app.route("/add",methods=['GET', 'POST'])
 def add_data():
