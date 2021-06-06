@@ -12,6 +12,12 @@ Create a `config.json` file in the local directory as the <a href="https://githu
   "FLASK_DEBUG": true,
   "SECRET_KEY": "some_really_secret_key",
   "SQLALCHEMY_DATABASE_URI": "postgresql://postgres_username:your_passwd@localhost:5432/TestDB",
+```
+
+  Or anything appropriate from flask sqlalchemy database URI. *(according to your choice of database) [here](https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/)*
+
+
+```json
   "SQLALCHEMY_TRACK_MODIFICATIONS": false
 }
 ```
@@ -31,4 +37,4 @@ $ export FLASK_APP=app.py
 $ export FLASK_ENV=development
 $ flask run
 ```
-flask run should run the flask app in your http://127.0.0.1:5000
+flask run should run the flask app in your [http://127.0.0.1:5000](http://127.0.0.1:5000, 'blank_')
