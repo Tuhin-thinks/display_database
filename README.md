@@ -37,4 +37,4 @@ $ export FLASK_APP=app.py
 $ export FLASK_ENV=development
 $ flask run
 ```
-flask run should run the flask app in your [http://127.0.0.1:5000](http://127.0.0.1:5000, 'blank_')
+flask run should run the flask app in your <a href="http://127.0.0.1:5000" target="blank_">http://127.0.0.1:5000</a>
