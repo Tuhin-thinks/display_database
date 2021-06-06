@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 
 
-{% block head %}{{ super() }}
-	{% block title %}
+{% block title %}
 		View Database - CRUD
-	{% endblock %}
 {% endblock %}
+{% block head %}{{ super() }}{% endblock %}
 {% block navbar %}{{ super() }}{% endblock %}
 <!-- table code starts -->
 {% block body %}
@@ -27,7 +26,6 @@
     {% set outer_loop = loop %}
     <tr row_id="{{outer_loop.index-1}}">
         {% for  head in columns %}
-        <!-- <td class="row_data">{{ item[head] }}</td> -->
         <td>
           {% if head == 'id' %}
           <div col_name="{{head}}">{{item[head]}}</div>
@@ -78,9 +76,6 @@
 	  </div>
 	</div>
   </div>
-  <!-- <button id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#res_div" visibility="hidden">
-	Launch demo modal
-  </button> -->
 
 <!-- Handle save and cancel buttons display -->
 <script>
@@ -157,12 +152,19 @@ $(document).on('click', '.btn_cancel', function(event)
 
 <!-- save whole row entery > start	 -->
 <script>
-$(document).on('click', '.btn_save', function(event) 
+$(document).on('click', '.btn_save', function(event)
 {
 	event.preventDefault();
 	var tbl_row = $(this).closest('tr');
 
-	var row_id = tbl_row.attr('row_id');
+	var arr = {};
+	var row_id = undefined;
+	tbl_row.find('[col_name="id"]').each(function(index, val){
+		var col_val = $(this).html();
+		console.log("passed row id="+col_val);
+		row_id = col_val;
+		arr['id'] = col_val;
+	});
 	//hide save and cacel buttons
 	tbl_row.find('.btn_save').hide();
 	tbl_row.find('.btn_cancel').hide();
@@ -178,7 +180,7 @@ $(document).on('click', '.btn_save', function(event)
 	.css('padding','')
 
 	//--->get row data > start
-	var arr = {}; 
+	
 	tbl_row.find('.row_data').each(function(index, val) 
 	{   
 		var col_name = $(this).attr('col_name');

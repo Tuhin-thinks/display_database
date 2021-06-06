@@ -9,7 +9,6 @@
 
 {% block body %}
   {{ super() }}
-
   <!-- Flash message after sucess operation -->
     <div class="container" style="position: absolute;top: 50px;left: 40%;z-index: 10;right: auto;max-width: max-content;">
         {% for message in get_flashed_messages() %}
@@ -31,7 +30,11 @@
           {% for name in columns[1:] %}
           <tr>
               <td><label for="{{ name[0] }}">{{name[0]}}</label></td>
-              <td><input id="{{ name[1] }}" name="{{ name[1] }}" type="text" value="" placeholder="Enter text here" required></td>
+              <td>
+                <div class="resizable">
+                  <input class="form-control" id="{{ name[1] }}" name="{{ name[1] }}" type="text" value="" placeholder="Enter text here" required>
+                </div>
+              </td>
             </tr>
             {% endfor %}
         </tbody>
@@ -104,5 +107,6 @@
     }
   }
   </script>
+
 {% endblock %}
 </html>
